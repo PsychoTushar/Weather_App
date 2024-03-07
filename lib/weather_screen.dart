@@ -25,7 +25,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
       );
       final data = jsonDecode(res.body);
 
-      if (data['cod'] != '200') {
+      if (res.statusCode != '200') {
         throw 'An unexpected error occured';
       }
 
