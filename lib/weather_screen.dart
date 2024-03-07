@@ -4,7 +4,6 @@ import 'package:intl/intl.dart';
 import 'package:flutter/material.dart';
 import 'package:weather_app/additional_info_item.dart';
 import 'package:weather_app/hourly_forecast_item.dart';
-// ignore: depend_on_referenced_packages
 import 'package:http/http.dart' as http;
 import 'package:weather_app/secrets.dart';
 
@@ -162,7 +161,6 @@ class _WeatherScreenState extends State<WeatherScreen> {
                       );
                     }),
               ),
-
               const SizedBox(height: 10),
               const Text(
                 'Additional Information',
